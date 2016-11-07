@@ -21,6 +21,10 @@ library
                      , servant-server
                      , wai
                      , warp
+                     , pandoc
+                     , http-media
+                     , bytestring
+                     , attoparsec
   default-language:    Haskell2010
 
 executable pandoc-api-exe
